@@ -1,0 +1,14 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+.video-text h3 {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 3px;
+}

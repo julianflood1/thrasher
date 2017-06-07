@@ -1,0 +1,21 @@
+.article-card {
+  height: 220px;
+  border-bottom: 3px solid black;
+  padding: 10px;
+  overflow: auto;
+}
+
+ .article-image img {
+   width: 100%;
+ }
+
+.article-image {
+  @include size(120px 120px);
+  float: left;
+}
+
+.article-text {
+  width: 60%;
+  float: left;
+  padding: 10px;
+}
