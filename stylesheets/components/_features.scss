@@ -1,0 +1,24 @@
+.feature-img {
+  width: 100%;
+  border: 1px dashed yellow;
+}
+
+.features {
+  border: 2px dashed pink;
+  background-color: black;
+  color: white;
+  border: 4px solid black;
+  overflow: auto;
+}
+
+.feature-bg {
+  border: 1px dashed blue;
+  padding: 20px;
+  background-image: url('../img/concrete.jpg');
+}
+
+.feature {
+  border: 2px dashed purple;
+  text-align: center;
+  margin: -15px;
+}

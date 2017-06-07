@@ -9,4 +9,7 @@
 .navbar {
   margin: 0;
   height: 60px;
+  @include large {
+    height: 95px;
+  }
 }

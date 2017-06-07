@@ -408,6 +408,11 @@ template {
 html {
   box-sizing: border-box; }
 
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -456,20 +461,6 @@ body {
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
  */
-.container {
-  max-width: 1180px;
-  /* 1 */
-  margin-left: auto;
-  /* 2 */
-  margin-right: auto;
-  /* 2 */
-  padding-left: 20px;
-  /* 3 */
-  padding-right: 20px;
-  /* 3 */
-  width: 100%;
-  /* 1 */ }
-
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;
@@ -502,7 +493,7 @@ body {
   width: 100%; }
 
 .article-card {
-  min-height: 184px;
+  min-height: 186px;
   border-bottom: 4px solid black;
   padding: 10px;
   overflow: auto; }
@@ -548,6 +539,10 @@ body {
   left: 79px;
   top: 96px; }
 
+@media (min-width: 768px) {
+  body {
+    background-color: yellow; } }
+
 .thrasher-logo {
   height: 30px;
   width: 120px; }
@@ -559,6 +554,9 @@ body {
 .navbar {
   margin: 0;
   height: 60px; }
+  @media (min-width: 768px) {
+    .navbar {
+      height: 95px; } }
 
 .video-bg {
   background-image: url("../img/concrete.jpg");
@@ -591,5 +589,26 @@ body {
 .black-2 {
   background-color: black;
   height: 25px; }
+
+.feature-img {
+  width: 100%;
+  border: 1px dashed yellow; }
+
+.features {
+  border: 2px dashed pink;
+  background-color: black;
+  color: white;
+  border: 4px solid black;
+  overflow: auto; }
+
+.feature-bg {
+  border: 1px dashed blue;
+  padding: 20px;
+  background-image: url("../img/concrete.jpg"); }
+
+.feature {
+  border: 2px dashed purple;
+  text-align: center;
+  margin: -15px; }
 
 /*# sourceMappingURL=output.css.map */

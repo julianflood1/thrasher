@@ -1,3 +1,9 @@
-#mobile {
-  // @include span-columns(12);
+$large-width: 768px;
+
+
+
+@mixin large {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
 }
