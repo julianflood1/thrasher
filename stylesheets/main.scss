@@ -20,7 +20,8 @@
   'base/base',
   'base/fonts',
   'base/typography',
-  'base/helpers';
+  'base/helpers',
+  'base/media-queries';
 
 // 4. Layout-related sections
 @import
@@ -34,7 +35,8 @@
 @import
   'components/button',
   'components/navbar',
-  'components/video';
+  'components/video',
+  'components/black';
 
 // 6. Page-specific styles
 @import

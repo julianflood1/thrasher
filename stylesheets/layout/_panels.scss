@@ -1,9 +1,8 @@
 .article-card {
-  height: 184px;
+  min-height: 184px;
   border-bottom: 4px solid black;
   padding: 10px;
   overflow: auto;
-
 }
 
  .article-image img {
@@ -18,11 +17,13 @@
 .article-text {
   width: 60%;
   float: left;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
+  height: 120px;
+  position: relative;
 }
 
 
-.black {
+.black-ad-wrapper {
   background-color: black;
   height: 300px;
   position: relative;
@@ -31,5 +32,16 @@
 .shoe-ad-square {
   @include position(absolute, 50%);
   @include transform(translate(-50%, -50%));
+}
+
+.article-text .facebook-icon {
+  position: absolute;
+  left: 10px;
+  top: 85px;
+}
+
+.article-text .share {
+  left: 79px;
+  top: 96px;
 
 }

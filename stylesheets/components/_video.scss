@@ -1,8 +1,7 @@
 .video-bg {
   background-image: url('../img/concrete.jpg');
   background-size: cover;
-  padding: 15px;
-  border-bottom: 1px dashed grey;
+  padding: 10px;
 }
 .video-card {
   width: 100%;
@@ -14,13 +13,12 @@
 .video {
   width: 100%;
   height: auto;
-
 }
 
 .video-text {
   background-color: white;
   padding: 10px;
-
+  border-top: 1px solid black;
 }
 
 .facebook-icon {
