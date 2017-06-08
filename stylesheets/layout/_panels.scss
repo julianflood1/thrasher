@@ -27,9 +27,16 @@
    display: none;
    @include large {
      display: block;
+     min-width: 380px;
    }
  }
 
+.skateline-panel {
+  @include large {
+    float: right;
+    width: 1px;
+  }
+}
 
 
 
