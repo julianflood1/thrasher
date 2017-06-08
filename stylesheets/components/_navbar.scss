@@ -1,5 +1,8 @@
 .thrasher-logo {
-  @include size(120px 30px);
+  @include size(125px 35px);
+  @include large {
+    @include size(200px 65px);
+  }
 }
 
 .navbar-inverse {

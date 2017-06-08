@@ -7,6 +7,7 @@
  */
 /* Document
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -496,10 +497,28 @@ body {
   min-height: 186px;
   border-bottom: 4px solid black;
   padding: 10px;
-  overflow: auto; }
+  overflow: auto;
+  background-color: white; }
 
 .article-image img {
   width: 100%; }
+
+@media (min-width: 768px) {
+  #row2 {
+    border: black solid 10px; } }
+
+#row2 h1 {
+  color: white;
+  background-color: black;
+  height: 60px;
+  margin: 0 0;
+  font-size: 45px;
+  font-family: 'Bowlby One SC', cursive;
+  text-align: left;
+  display: none; }
+  @media (min-width: 768px) {
+    #row2 h1 {
+      display: block; } }
 
 .article-image {
   height: 120px;
@@ -541,11 +560,22 @@ body {
 
 @media (min-width: 768px) {
   body {
-    background-color: yellow; } }
+    background-color: black; } }
+
+.navbar-toggle {
+  border: none;
+  margin-top: 15px; }
+  .navbar-toggle .icon-bar {
+    padding: 1.5px;
+    width: 19px; }
 
 .thrasher-logo {
-  height: 30px;
-  width: 120px; }
+  height: 35px;
+  width: 125px; }
+  @media (min-width: 768px) {
+    .thrasher-logo {
+      height: 65px;
+      width: 200px; } }
 
 .navbar-inverse {
   background-color: #000;
@@ -559,9 +589,13 @@ body {
       height: 95px; } }
 
 .video-bg {
-  background-image: url("../img/concrete.jpg");
+  background-image: url("../img/metal.jpg");
   background-size: cover;
   padding: 10px; }
+  @media (min-width: 768px) {
+    .video-bg {
+      width: 50%;
+      float: right; } }
 
 .video-card {
   width: 100%;
@@ -585,10 +619,16 @@ body {
   background-color: black;
   height: 15px;
   border-bottom: 1px dashed grey; }
+  @media (min-width: 768px) {
+    .black-1 {
+      display: none; } }
 
 .black-2 {
   background-color: black;
   height: 25px; }
+  @media (min-width: 768px) {
+    .black-2 {
+      display: none; } }
 
 .feature-img {
   width: 100%;
@@ -604,7 +644,11 @@ body {
 .feature-bg {
   border: 1px dashed blue;
   padding: 20px;
-  background-image: url("../img/concrete.jpg"); }
+  background-image: url("../img/metal.jpg");
+  display: none; }
+  @media (min-width: 768px) {
+    .feature-bg {
+      display: inline-block; } }
 
 .feature {
   border: 2px dashed purple;

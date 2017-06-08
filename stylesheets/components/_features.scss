@@ -14,7 +14,11 @@
 .feature-bg {
   border: 1px dashed blue;
   padding: 20px;
-  background-image: url('../img/concrete.jpg');
+  background-image: url('../img/metal.jpg');
+  display: none;
+  @include large {
+    display: inline-block;
+  }
 }
 
 .feature {

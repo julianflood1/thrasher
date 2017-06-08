@@ -1,7 +1,11 @@
 .video-bg {
-  background-image: url('../img/concrete.jpg');
+  background-image: url('../img/metal.jpg');
   background-size: cover;
   padding: 10px;
+  @include large {
+    width: 50%;
+    float: right;
+  }
 }
 .video-card {
   width: 100%;

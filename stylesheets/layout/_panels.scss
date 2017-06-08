@@ -3,11 +3,35 @@
   border-bottom: 4px solid black;
   padding: 10px;
   overflow: auto;
+  background-color: white;
 }
 
  .article-image img {
    width: 100%;
  }
+
+ #row2 {
+   @include large {
+     border: black solid 10px;
+   }
+ }
+
+ #row2 h1 {
+   color: white;
+   background-color: black;
+   height: 60px;
+   margin:0 0;
+   font-size: 45px;
+   font-family: 'Bowlby One SC', cursive;
+   text-align: left;
+   display: none;
+   @include large {
+     display: block;
+   }
+ }
+
+
+
 
 .article-image {
   @include size(120px 120px);
@@ -47,6 +71,6 @@
 
 body {
   @include large {
-  background-color: yellow;
+  background-color: black;
   }
 }

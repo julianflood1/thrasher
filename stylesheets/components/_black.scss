@@ -2,9 +2,15 @@
   background-color: black;
   height: 15px;
   border-bottom: 1px dashed grey;
+  @include large {
+    display: none;
+  }
 }
 
 .black-2 {
   background-color: black;
   height: 25px;
+  @include large {
+    display: none;
+  }
 }
